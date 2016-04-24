@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		81BFD8021B84C01F00BDC2CF /* cutPP.png in Resources */ = {isa = PBXBuildFile; fileRef = 81BFD8011B84C01F00BDC2CF /* cutPP.png */; };
+		81BFD8041B84C16C00BDC2CF /* cutPP_s.png in Resources */ = {isa = PBXBuildFile; fileRef = 81BFD8031B84C16C00BDC2CF /* cutPP_s.png */; };
 		81EF068B1B83358E007CE2B4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 81EF068A1B83358E007CE2B4 /* main.m */; };
 		81EF068E1B83358E007CE2B4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 81EF068D1B83358E007CE2B4 /* AppDelegate.m */; };
 		81EF06911B83358E007CE2B4 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 81EF06901B83358E007CE2B4 /* ViewController.m */; };
@@ -14,6 +16,14 @@
 		81EF06961B83358E007CE2B4 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 81EF06951B83358E007CE2B4 /* Images.xcassets */; };
 		81EF06991B83358E007CE2B4 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 81EF06971B83358E007CE2B4 /* LaunchScreen.xib */; };
 		81EF06A51B83358E007CE2B4 /* DrawingBoardTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 81EF06A41B83358E007CE2B4 /* DrawingBoardTests.m */; };
+		81EF06B01B8335FA007CE2B4 /* MainBoard.m in Sources */ = {isa = PBXBuildFile; fileRef = 81EF06AF1B8335FA007CE2B4 /* MainBoard.m */; };
+		81EF06B31B83361A007CE2B4 /* ToolView.m in Sources */ = {isa = PBXBuildFile; fileRef = 81EF06B21B83361A007CE2B4 /* ToolView.m */; };
+		81EF06B91B8336E4007CE2B4 /* PathModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 81EF06B81B8336E4007CE2B4 /* PathModel.m */; };
+		81EF06BF1B8341DD007CE2B4 /* MyButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 81EF06BE1B8341DD007CE2B4 /* MyButton.m */; };
+		81F6C9EA1B8566D20090A930 /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 81F6C9E91B8566D20090A930 /* icon.png */; };
+		81F6C9ED1B8592350090A930 /* kingPP.png in Resources */ = {isa = PBXBuildFile; fileRef = 81F6C9EC1B8592350090A930 /* kingPP.png */; };
+		81F852131B84AAB0002504E0 /* pp.png in Resources */ = {isa = PBXBuildFile; fileRef = 81F852121B84AAB0002504E0 /* pp.png */; };
+		81F852161B84ADA4002504E0 /* ImageUtill.m in Sources */ = {isa = PBXBuildFile; fileRef = 81F852151B84ADA4002504E0 /* ImageUtill.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,6 +37,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		81BFD8011B84C01F00BDC2CF /* cutPP.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cutPP.png; sourceTree = "<group>"; };
+		81BFD8031B84C16C00BDC2CF /* cutPP_s.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cutPP_s.png; sourceTree = "<group>"; };
 		81EF06851B83358E007CE2B4 /* DrawingBoard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DrawingBoard.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		81EF06891B83358E007CE2B4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		81EF068A1B83358E007CE2B4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -40,6 +52,19 @@
 		81EF069E1B83358E007CE2B4 /* DrawingBoardTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DrawingBoardTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		81EF06A31B83358E007CE2B4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		81EF06A41B83358E007CE2B4 /* DrawingBoardTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DrawingBoardTests.m; sourceTree = "<group>"; };
+		81EF06AE1B8335FA007CE2B4 /* MainBoard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainBoard.h; sourceTree = "<group>"; };
+		81EF06AF1B8335FA007CE2B4 /* MainBoard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainBoard.m; sourceTree = "<group>"; };
+		81EF06B11B83361A007CE2B4 /* ToolView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ToolView.h; sourceTree = "<group>"; };
+		81EF06B21B83361A007CE2B4 /* ToolView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ToolView.m; sourceTree = "<group>"; };
+		81EF06B71B8336E4007CE2B4 /* PathModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PathModel.h; sourceTree = "<group>"; };
+		81EF06B81B8336E4007CE2B4 /* PathModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PathModel.m; sourceTree = "<group>"; };
+		81EF06BD1B8341DD007CE2B4 /* MyButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyButton.h; sourceTree = "<group>"; };
+		81EF06BE1B8341DD007CE2B4 /* MyButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyButton.m; sourceTree = "<group>"; };
+		81F6C9E91B8566D20090A930 /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
+		81F6C9EC1B8592350090A930 /* kingPP.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = kingPP.png; sourceTree = "<group>"; };
+		81F852121B84AAB0002504E0 /* pp.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pp.png; sourceTree = "<group>"; };
+		81F852141B84ADA4002504E0 /* ImageUtill.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageUtill.h; sourceTree = "<group>"; };
+		81F852151B84ADA4002504E0 /* ImageUtill.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImageUtill.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +88,7 @@
 		81EF067C1B83358D007CE2B4 = {
 			isa = PBXGroup;
 			children = (
+				81F6C9EB1B85912E0090A930 /* Images */,
 				81EF06871B83358E007CE2B4 /* DrawingBoard */,
 				81EF06A11B83358E007CE2B4 /* DrawingBoardTests */,
 				81EF06861B83358E007CE2B4 /* Products */,
@@ -83,8 +109,9 @@
 			children = (
 				81EF068C1B83358E007CE2B4 /* AppDelegate.h */,
 				81EF068D1B83358E007CE2B4 /* AppDelegate.m */,
-				81EF068F1B83358E007CE2B4 /* ViewController.h */,
-				81EF06901B83358E007CE2B4 /* ViewController.m */,
+				81EF06B61B8336AD007CE2B4 /* Controler */,
+				81EF06B51B833687007CE2B4 /* View */,
+				81EF06B41B833681007CE2B4 /* Model */,
 				81EF06921B83358E007CE2B4 /* Main.storyboard */,
 				81EF06951B83358E007CE2B4 /* Images.xcassets */,
 				81EF06971B83358E007CE2B4 /* LaunchScreen.xib */,
@@ -117,6 +144,51 @@
 				81EF06A31B83358E007CE2B4 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		81EF06B41B833681007CE2B4 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				81EF06B71B8336E4007CE2B4 /* PathModel.h */,
+				81EF06B81B8336E4007CE2B4 /* PathModel.m */,
+				81F852141B84ADA4002504E0 /* ImageUtill.h */,
+				81F852151B84ADA4002504E0 /* ImageUtill.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		81EF06B51B833687007CE2B4 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				81EF06AE1B8335FA007CE2B4 /* MainBoard.h */,
+				81EF06AF1B8335FA007CE2B4 /* MainBoard.m */,
+				81EF06B11B83361A007CE2B4 /* ToolView.h */,
+				81EF06B21B83361A007CE2B4 /* ToolView.m */,
+				81EF06BD1B8341DD007CE2B4 /* MyButton.h */,
+				81EF06BE1B8341DD007CE2B4 /* MyButton.m */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		81EF06B61B8336AD007CE2B4 /* Controler */ = {
+			isa = PBXGroup;
+			children = (
+				81EF068F1B83358E007CE2B4 /* ViewController.h */,
+				81EF06901B83358E007CE2B4 /* ViewController.m */,
+			);
+			name = Controler;
+			sourceTree = "<group>";
+		};
+		81F6C9EB1B85912E0090A930 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				81BFD8011B84C01F00BDC2CF /* cutPP.png */,
+				81F852121B84AAB0002504E0 /* pp.png */,
+				81BFD8031B84C16C00BDC2CF /* cutPP_s.png */,
+				81F6C9E91B8566D20090A930 /* icon.png */,
+				81F6C9EC1B8592350090A930 /* kingPP.png */,
+			);
+			name = Images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -168,6 +240,7 @@
 				TargetAttributes = {
 					81EF06841B83358E007CE2B4 = {
 						CreatedOnToolsVersion = 6.3.2;
+						DevelopmentTeam = JF42L6X99K;
 					};
 					81EF069D1B83358E007CE2B4 = {
 						CreatedOnToolsVersion = 6.3.2;
@@ -199,9 +272,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				81BFD8021B84C01F00BDC2CF /* cutPP.png in Resources */,
+				81F852131B84AAB0002504E0 /* pp.png in Resources */,
+				81BFD8041B84C16C00BDC2CF /* cutPP_s.png in Resources */,
 				81EF06941B83358E007CE2B4 /* Main.storyboard in Resources */,
 				81EF06991B83358E007CE2B4 /* LaunchScreen.xib in Resources */,
 				81EF06961B83358E007CE2B4 /* Images.xcassets in Resources */,
+				81F6C9ED1B8592350090A930 /* kingPP.png in Resources */,
+				81F6C9EA1B8566D20090A930 /* icon.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -221,7 +299,12 @@
 			files = (
 				81EF06911B83358E007CE2B4 /* ViewController.m in Sources */,
 				81EF068E1B83358E007CE2B4 /* AppDelegate.m in Sources */,
+				81EF06BF1B8341DD007CE2B4 /* MyButton.m in Sources */,
 				81EF068B1B83358E007CE2B4 /* main.m in Sources */,
+				81F852161B84ADA4002504E0 /* ImageUtill.m in Sources */,
+				81EF06B31B83361A007CE2B4 /* ToolView.m in Sources */,
+				81EF06B91B8336E4007CE2B4 /* PathModel.m in Sources */,
+				81EF06B01B8335FA007CE2B4 /* MainBoard.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -349,9 +432,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = DrawingBoard/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = class.DBoard;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
@@ -359,9 +446,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = DrawingBoard/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = class.DBoard;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};
@@ -418,6 +509,7 @@
 				81EF06AA1B83358E007CE2B4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		81EF06AB1B83358E007CE2B4 /* Build configuration list for PBXNativeTarget "DrawingBoardTests" */ = {
 			isa = XCConfigurationList;
@@ -426,6 +518,7 @@
 				81EF06AD1B83358E007CE2B4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
